@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import {setVideoURL} from "../actions";
-import VideoPlayer from "../components/VideoPlayer"
+import VideoTextBox from "../components/VideoTextBox"
 
 
 function mapDispatchToProps(dispatch){
@@ -12,4 +12,4 @@ function mapDispatchToProps(dispatch){
   }
 }
 
-export default connect(null,mapDispatchToProps)(VideoPlayer);
+export default connect(null,mapDispatchToProps)(VideoTextBox);

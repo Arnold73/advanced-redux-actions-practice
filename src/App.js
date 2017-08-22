@@ -11,11 +11,11 @@ import VideoPlayer from "./containers/VideoPlayerContainer";
 import VideoTextBox from "./containers/VideoTextBoxContainer";
 import CurrentCity from "./containers/CurrentCityContainer";
 import CityDropDown from "./containers/CityDropDownContainer";
-import SearchTextBox from "./components/SearchTextBox";
-import SortUsers from "./components/SortUsers";
-import ScaleVideo from "./components/ScaleVideo";
+import SearchTextBox from "./containers/SearchTextBoxContainer";
+import SortUsers from "./containers/SortUsersContainer";
+import ScaleVideo from "./containers/ScaleVideoContainer";
 import Modal from "./containers/ModalContainer";
-import ShowModal from "./components/ShowModal";
+import ShowModal from "./containers/ShowModalContainer";
 
 function App() {
   return (
